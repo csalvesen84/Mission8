@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>CongoBasin - @ViewData["Title"]</title>
+    <link href="~/lib/css/bootstrap.css" rel="stylesheet" />
+    <link rel="icon" href="~/img/congobasinicon.png" />
+</head>
+<body>
+    <div class="bg-dark text-white p-2">
+        <span class="navbar-brand m1-2">
+            <img src="~/img/congobasin.png" style="max-height:40px" />
+        </span>
+    </div>
+    <div class="row m-1 p-1">
+        <div class="col-9">
+            @RenderBody()
+        </div>
+    </div>
+</body>
+</html>
